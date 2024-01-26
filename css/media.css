@@ -1,0 +1,34 @@
+@media (max-width: 1510px) {
+
+    .main {
+        padding-top: 75px;
+    }
+
+    .skillBox--elementsBox {
+        flex: 1;
+        max-width: none;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .svgMorph {
+        display: none;
+    }
+    
+    .bigName::before {
+        display: none;
+    }
+    
+    .projectsList {
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    nav {
+        display: none;
+    }
+}
