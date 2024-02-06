@@ -616,6 +616,7 @@ a.projectBtn:hover > span:has(i) {
     max-width: 400px;
     overflow: hidden;
     transition: box-shadow .3s ease-in-out;
+    position: relative;
 }
 
 .projectCard:hover {
@@ -684,7 +685,7 @@ a.projectBtn:hover > span:has(i) {
 
 .projectCard--footer {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: flex-end;
     gap: 10px;    
     height: 100%;
@@ -698,19 +699,15 @@ a.projectBtn:hover > span:has(i) {
 .projectCard--footer > a {
     font-size: 20px;
     color: var(--text2);
-    transform: translate3d(0, 40px, 0);
     transition: transform .3s ease-in-out;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
 }
 
 .projectCard--footer > a:hover {
     color: var(--text);
 }
-
-
-.projectCard:hover  .projectCard--footer > a{
-    transform: translate3d(0, 0, 0);
-}
-
 
 .btn-more {
     color: var(--white);
