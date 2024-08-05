@@ -117,7 +117,7 @@ h1 {
 h2.firstDesc {
     color: var(--text1);
     font-size: calc(16px + 0.6vw);
-
+    /* font-weight: 500; */
 }
 
 .btnBox {
@@ -269,6 +269,10 @@ a.projectBtn:hover > span:has(i) {
     font-size: calc(12px + .2vw);
 }
 
+.experienceRole {
+    color: var(--text3);
+}
+
 .informationsBox > p {
     color: var(--text1);
     font-weight: 500;
@@ -398,6 +402,7 @@ a.projectBtn:hover > span:has(i) {
     width: 90px;
     gap: 5px;
     transition: color .3s;
+    cursor: default;
 }
 
 .skillElement > i {
@@ -412,13 +417,13 @@ a.projectBtn:hover > span:has(i) {
 }
 
 .skillElement:hover {
-    color: var(--secondary);
+    color: var(--icon-hover);
 }
 
 .skillElement:hover svg,
 .skillElement:hover img,
 .skillElement:hover i {
-    fill: var(--secondary) !important;
+    fill: var(--icon-hover) !important;
     transform: translateY(-5px);
 }
 
@@ -452,6 +457,7 @@ a.projectBtn:hover > span:has(i) {
 .countriesBox {
     display: flex;
     gap: 25px;
+    cursor: default;
 }
 
 .countryBox {
@@ -464,7 +470,7 @@ a.projectBtn:hover > span:has(i) {
 }
 
 .countryBox:hover > .countrytext > p {
-    color: var(--secondary);
+    color: var(--icon-hover);
 }
 
 .languageLevel {
@@ -533,7 +539,7 @@ a.projectBtn:hover > span:has(i) {
 }
 
 .projectCard--header > span {
-    color: var(--text2);
+    color: var(--text1);
     font-size: calc(10px + .2vw);
 }
 
@@ -574,13 +580,13 @@ a.projectBtn:hover > span:has(i) {
 }
 
 .projectCard--content-tags > span {
-    color: var(--tags);
-    border: 1px var(--tags) solid;
+    color: var(--text1);
+    border: 1px var(--text1) solid;
+    background-color: rgba(0, 0, 0, 2%);
     padding: 3px 6px;
     font-size: clamp(10px, 1vw, 12px);
     border-radius: 3px;
 }
-
 
 .btn-more {
     color: var(--white);
