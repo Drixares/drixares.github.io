@@ -16,18 +16,19 @@
   --portage-950: #181b4e;
   --white: #f4f6fb;
   --black: #0f0f12;
-  --outline: #333333;
+  --outline: #27272a;
   --tags: #6f6f6f;
   --shared-primary: var(--portage-500);
   
   /* --- Light theme --- */
-  --light-secondary: var(--portage-700);
+  --light-secondary: #0f172a;
   --light-trait: var(--portage-300);
   --light-bg: var(--white);
   --light-bg-object: #ffffff;
   --light-text: var(--portage-950);
-  --light-text1: var(--portage-900);
+  --light-text1: #0f172a;
   --light-text2: var(--portage-800);
+  --light-text3: #334155;
   --light-outline: #bebebe;
   --light-shadow: rgba(0, 0, 0, 20%);
   --light-gradient: linear-gradient(90deg, var(--white) 0%, rgba(249, 249, 250, 0.15) 50.27%, var(--white) 100%);
@@ -35,15 +36,17 @@
   --light-switcher-circle-pos: .31rem;
   --light-moon: #130f1c;
   --light-sun: #EEEEEE;
+  --light-icon-hover: var(--portage-700);
   
   /* --- Dark theme --- */
-  --dark-secondary: var(--portage-600);
+  --dark-secondary: var(--portage-100);
   --dark-trait: var(--portage-400);
   --dark-bg: var(--black);
-  --dark-bg-object: #19191c;
+  --dark-bg-object: #18181b;
   --dark-text: var(--portage-50);
-  --dark-text1: var(--portage-200);
+  --dark-text1: #94a3b8;
   --dark-text2: var(--portage-200);
+  --dark-text3: #cbd5e1;
   --dark-outline: var(--outline);
   --dark-shadow: rgba(238, 238, 238, 20%);
   --dark-gradient: linear-gradient(90deg, var(--black) 0%, rgba(16, 16, 16, 0.15) 50.27%, var(--black) 100%);
@@ -52,6 +55,7 @@
   --dark-switcher-circle-pos: 2.86rem;
   --dark-moon: #EEEEEE;
   --dark-sun: #AEAEAE;
+  --dark-icon-hover: var(--portage-400);
 }
 
 :root[data-theme = "dark"] .wrapper, 
@@ -63,6 +67,7 @@
   --text: var(--dark-text);
   --text1: var(--dark-text1);
   --text2: var(--dark-text2);
+  --text3: var(--dark-text3);
   --outline: var(--dark-outline);
   --shadow: var(--dark-shadow);
   --gradient: var(--dark-gradient);
@@ -70,6 +75,7 @@
   --switcher-circle-bg: var(--dark-switcher-circle-bg);
   --sun: var(--dark-sun);
   --moon: var(--dark-moon);
+  --icon-hover: var(--dark-icon-hover);
 }
 
 html,
@@ -84,6 +90,7 @@ html,
   --text: var(--light-text);
   --text1: var(--light-text1);
   --text2: var(--light-text2);
+  --text3: var(--light-text3);
   --outline: var(--light-outline);
   --shadow: var(--light-shadow);
   --gradient: var(--light-gradient);
@@ -91,6 +98,7 @@ html,
   --switcher-circle-bg: var(--light-switcher-circle-bg);
   --sun: var(--light-sun);
   --moon: var(--light-moon);
+  --icon-hover: var(--light-icon-hover);
 }
 
 .wrapper {
