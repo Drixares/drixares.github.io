@@ -16,7 +16,6 @@
   --portage-950: #181b4e;
   --white: #f4f6fb;
   --black: #0f0f12;
-  --outline: #27272a;
   --tags: #6f6f6f;
   --shared-primary: var(--portage-500);
   
@@ -47,7 +46,7 @@
   --dark-text1: #94a3b8;
   --dark-text2: var(--portage-200);
   --dark-text3: #cbd5e1;
-  --dark-outline: var(--outline);
+  --dark-outline: #27272a;
   --dark-shadow: rgba(238, 238, 238, 20%);
   --dark-gradient: linear-gradient(90deg, var(--black) 0%, rgba(16, 16, 16, 0.15) 50.27%, var(--black) 100%);
   --switcher-bg: #D9D9D9 ;
