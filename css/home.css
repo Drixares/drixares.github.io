@@ -500,9 +500,11 @@ a.projectBtn:hover > span:has(i) {
 }
 
 .projectsList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px 3vw;
+    display: grid;
+    width: 100%;
+    /* grid with 3 columns responsive */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .projectCard {
@@ -514,8 +516,7 @@ a.projectBtn:hover > span:has(i) {
     background: var(--bg-object);
     /* box-shadow: 2px 4px 10px 0px var(--shadow); */
     border: 1px solid var(--outline);
-    min-width: 350px;
-    max-width: 400px;
+    /* min-width: 300px; */
     overflow: hidden;
     transition: box-shadow .3s ease-in-out, border .3s ease-in-out;
     position: relative;
@@ -576,6 +577,7 @@ a.projectBtn:hover > span:has(i) {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
