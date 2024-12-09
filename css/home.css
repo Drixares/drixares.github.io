@@ -162,7 +162,7 @@ a.projectBtn > span:has(i) {
     margin-left: 5px;
     visibility: hidden;
     opacity: 0;
-    transform: translate(-10px, 2px);
+    transform: translateX(-10px);
     transition: all .3s ease-in-out;
     z-index: -1;
 }
@@ -174,7 +174,7 @@ a.projectBtn:hover > span:not(:has(i)) {
 a.projectBtn:hover > span:has(i) {
     visibility: visible;
     opacity: 1;
-    transform: translate(0, 2px);
+    transform: translateX(0);
 }
 
 .svgMorph {
